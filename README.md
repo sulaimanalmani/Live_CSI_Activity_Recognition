@@ -56,7 +56,7 @@ Now, 4th parameter = 1000 (because 20000 * 1000 * 1micro = 20s)
 3.Run Matlab on Receiver and run the experiment.m code
 cd /usr/local/MATLAB/R2018b/bin
 sudo ./matlab
-experiment.m
+live_activity.m
 
 4.Provide CSI socket to matlab and start receiving CSI data
 cd /home/almani/linux-80211n-csitool-supplementary/netlink
