@@ -17,9 +17,9 @@ https://github.com/lubingxian/Realtime-processing-for-csitool
 Note: Open matlab using "sudo ./matlab -softwareopengl" for this to work.  
 
 After Live CSI is achieved, now you have to train a ML model which can classify activities.  
-You can either train you own model and use it or use the model I have trained here  
+You can either train you own model and use it or use the model I have trained in the models folder. (To use your own model, replace the files in /matlab/model)
 To go through the process of data pre-processing and model training, you can use this python notebook.  
-(I used this dataset :https://github.com/ermongroup/Wifi_Activity_Recognition)  
+(I used this dataset :https://github.com/ermongroup/Wifi_Activity_Recognition)
 
 After getting a trained model, now you need to put this model to work.  
 For that you will need a later version of matlab. R2018b would be preferable.  
