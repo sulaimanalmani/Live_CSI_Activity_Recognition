@@ -29,7 +29,8 @@ Import your model into matlab using importKerasNetwork() function and inputting 
 for the weights and make sure it imports correctly.  
 Note: If matlab is not importing your model, try renaming keras version in the json file to you keras version (remove "-tf" in the end of the version)  
 
-Now you need the files in this repo and follow these steps:
+Now you need the files in this repo (note these need to go into linux-80211n-csitool-supplementary)  
+and follow these steps:
 
 1.SET UP Monitor Mode on the receiver  
 cd linux-80211n-csitool-supplementary/injection/  
