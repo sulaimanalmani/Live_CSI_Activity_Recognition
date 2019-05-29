@@ -18,7 +18,7 @@ Note: Open matlab using "sudo ./matlab -softwareopengl" for this to work.
 
 After Live CSI is achieved, now you have to train a ML model which can classify activities.  
 You can either train you own model and use it or use the model I have trained in the models folder. (To use your own model, replace the files in /matlab/model)
-To go through the process of data pre-processing and model training, you can use this python notebook.  
+To go through the process of data pre-processing and model training, you can use the provided python notebook.  
 (I used this dataset :https://github.com/ermongroup/Wifi_Activity_Recognition)
 
 After getting a trained model, now you need to put this model to work.  
