@@ -37,7 +37,7 @@ cd linux-80211n-csitool-supplementary/injection/
 sudo ./setup_monitor_csi.sh 64 HT20  
 
 2.SET UP injection mod on the transmitter and start injecting packets:  
-cd /home/almani/linux-80211n-csitool-supplementary/injection  
+cd /home/user_name/linux-80211n-csitool-supplementary/injection  
 sudo ./setup_inject.sh 64 HT20  
 sudo su  
 echo 0x4101 | sudo tee `find /sys -name monitor_tx_rate`
@@ -60,5 +60,5 @@ sudo ./matlab
 live_activity.m
 
 4.Provide CSI socket to matlab and start receiving CSI data
-cd /home/almani/linux-80211n-csitool-supplementary/netlink
+cd /home/user_name/linux-80211n-csitool-supplementary/netlink
 sudo ./log_to_server 127.0.0.1 8090
