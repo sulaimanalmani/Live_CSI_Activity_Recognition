@@ -62,3 +62,6 @@ live_activity.m
 4.Provide CSI socket to matlab and start receiving CSI data
 cd /home/user_name/linux-80211n-csitool-supplementary/netlink
 sudo ./log_to_server 127.0.0.1 8090
+
+
+Note: at this point, the ML model is not temporally or spatially robust. For testing, you need to be in the same environment as the one in which training dataset was gathered to produce good results.
