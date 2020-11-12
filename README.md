@@ -64,4 +64,4 @@ cd /home/user_name/linux-80211n-csitool-supplementary/netlink
 sudo ./log_to_server 127.0.0.1 8090
 
 
-Note: at this point, the ML model is not temporally or spatially robust. For testing, you need to be in the same environment as the one in which training dataset was gathered to produce good results.
+Note: at this point, the ML model is not temporally or spatially robust. For testing, you need to be in the same environment as the one in which training dataset was gathered to produce good results. So it might be a good idea to produce your own dataset in a controlled environment and train your own ML model and then test on your own testing data.
